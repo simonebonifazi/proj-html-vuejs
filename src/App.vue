@@ -105,6 +105,20 @@
         <!-- SE SI RIPETE QUALCOSA; ... -->
         <span></span>
       </section>
+      <!-- parterns section -->
+      <section id="partners">
+        <!-- intro -->
+        <h5></h5>
+        <span></span>
+        <p></p>
+        <!-- partners -->
+        <img src="#" alt="#">
+        <img src="#" alt="#">
+        <img src="#" alt="#">
+        <img src="#" alt="#">
+        <img src="#" alt="#">
+
+      </section>
   </main>
 </template>
 
