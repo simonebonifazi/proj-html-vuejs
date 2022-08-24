@@ -40,20 +40,21 @@
           Do You Have A Construction Project We Can Help With?
         </p>
         <!-- pos rel? spostare nel jumbo come footer? -->
-      </section>
-    <!-- our specialities section -->
-    <section id="specialities">
       <button type="button" class="free-quote">
       <!-- position absolute? --> GET A FREE QUOTE
       </button>
+      </section>
+    <!-- our specialities section -->
+    <section id="specialities">
 
       <div class="specialities-construction">
         <!-- nb la intro si ripete quasi sempre per ogni sezione -->
-        <h5></h5>
-        <span></span>
-        <p></p>
-        <div class="mini-card">
+        <h4>Specialists In Modern Construction</h4>
+        <span class="divisor">-</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
+        <div class="mini-card text-center">
           <!-- da ciclare con data -->
+          
         </div>
       </div>
     </section>
@@ -293,19 +294,39 @@ export default {
   height: 80px;
 
 }
-
+//botton
 .free-quote{
     border: 1px solid $white;
     background-color: $cod_gray;
     color: $white;
-    font-size: smaller;
+    font-size: small;
 
     padding: 0.7rem 1.2rem;
 
     position: relative;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left: 43%;
 
   }
 
+  //specialities section
+  #specialities{
+    .mini-card{
+      width:150px;
+      height:150px;
+
+      background-color: $pampas;
+    }
+  }
+
+//collabs
+#our-collabs{
+  min-height: 400px;
+
+  background-image: url("./assets/img/home-244125289.jpg");
+  background-position: center;
+  background-size: cover;
+
+  
+}
 </style>
