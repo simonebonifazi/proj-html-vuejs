@@ -6,17 +6,19 @@
         <figure>
           <img src="./assets/img/construction_logo.png" alt="logo">
         </figure>
-        <nav>
+        <nav class="d-flex align-items-center">
           <!-- aggiungere classe active con triangolino basso e color yellow
           poi cambiare in ul li e aggiungere a e cursor pointer -->
-          <span> blabla prova</span>
-          <span> blabla prova</span>
-          <span> blabla prova</span>
-          <span> blabla prova</span>
-          <span> blabla prova</span>
+          <ul class="d-flex m-0">
+            <li class="px-3"> <a href="#"> HOME</a></li>
+            <li class="px-3"> <a href="#"> ABOUT</a></li>
+            <li class="px-3"> <a href="#"> SERVICES </a></li>
+            <li class="px-3"> <a href="#"> WORK </a></li>
+            <li class="px-3"> <a href="#"> ARTICLES </a></li>
+          </ul>
           <!-- posso creare un componente, si ripete 4 volte
            ma con testo diverso che mi farò passare di volta in volta da props -->
-          <button type="button"> GET QUOTE</button>
+          <button type=" button"> GET QUOTE</button>
         </nav>
       </div>
     </header>
@@ -76,10 +78,18 @@
       <p></p>
 
       <!-- best services -->
-      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
-      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
-      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
-      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
+      <div class="values"><i></i> <span></span> <span></span>
+        <p></p>
+      </div>
+      <div class="values"><i></i> <span></span> <span></span>
+        <p></p>
+      </div>
+      <div class="values"><i></i> <span></span> <span></span>
+        <p></p>
+      </div>
+      <div class="values"><i></i> <span></span> <span></span>
+        <p></p>
+      </div>
     </section>
     <!-- review's secction -->
     <section id="reviews">
@@ -91,69 +101,75 @@
       <p></p>
       <span></span>
       <!-- custom points -->
+    </section>
+    <!-- latest news -->
+    <section id="news">
+      <!-- intro -->
+      <h5></h5>
+      <span></span>
+      <p></p>
+      <!-- cards -->
+      <figure><img src="#" alt="#">
+        <figcaption></figcaption>
+      </figure>
+      <figure><img src="#" alt="#">
+        <figcaption></figcaption>
+      </figure>
+      <figure><img src="#" alt="#">
+        <figcaption></figcaption>
+      </figure>
+      <!-- SE SI RIPETE QUALCOSA; ... -->
+      <span></span>
+    </section>
+    <!-- parterns section -->
+    <section id="partners">
+      <!-- intro -->
+      <h5></h5>
+      <span></span>
+      <p></p>
+      <!-- partners -->
+      <img src="#" alt="#">
+      <img src="#" alt="#">
+      <img src="#" alt="#">
+      <img src="#" alt="#">
+      <img src="#" alt="#">
+
+    </section>
+    <!-- cta section -->
+    <section id="cta-section">
+      <!-- bg_img -->
+      <div class="d-flex">
+        <div class="intro">
+          <!-- intro -->
+          <h5></h5>
+          <span></span>
+          <p></p>
+        </div>
+        <div class="cta">
+          <button type="button"></button>
+          <span></span>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <section id="footer-top d-flex">
+        <div class="us"></div>
+        <div class="tweets"></div>
+        <div class="contact-us"></div>
+        <div class="find-us"></div>
       </section>
-      <!-- latest news -->
-      <section id="news">
-        <!-- intro -->
-        <h5></h5>
-        <span></span>
-        <p></p>
-        <!-- cards -->
-        <figure><img src="#" alt="#"> <figcaption></figcaption></figure>
-        <figure><img src="#" alt="#"> <figcaption></figcaption></figure>
-        <figure><img src="#" alt="#"> <figcaption></figcaption></figure>
-        <!-- SE SI RIPETE QUALCOSA; ... -->
-        <span></span>
-      </section>
-      <!-- parterns section -->
-      <section id="partners">
-        <!-- intro -->
-        <h5></h5>
-        <span></span>
-        <p></p>
-        <!-- partners -->
-        <img src="#" alt="#">
-        <img src="#" alt="#">
-        <img src="#" alt="#">
-        <img src="#" alt="#">
-        <img src="#" alt="#">
+
+      <section id="footer-bottom">
+        <div class="d-flex align-items-center justify-content-between">
+          <span> copyright</span>
+          <div>
+
+          </div>
+        </div>
 
       </section>
-      <!-- cta section -->
-      <section id="cta-section">
-        <!-- bg_img -->
-        <div class="d-flex">
-          <div class="intro">
-            <!-- intro -->
-            <h5></h5>
-            <span></span>
-            <p></p>
-          </div>
-           <div class="cta">
-             <button type="button"></button>
-             <span></span>
-           </div>
-          </div>
-      </section>
-      <!-- footer -->
-      <footer>
-        <section id="footer-top d-flex">
-          <div class="us"></div>
-          <div class="tweets"></div>
-          <div class="contact-us"></div>
-          <div class="find-us"></div>
-        </section>
-
-        <section id="footer-bottom">
-          <div class="d-flex align-items-center justify-content-between">
-              <span> copyright</span>
-              <div>
-                
-              </div>
-          </div>
-
-        </section>
-      </footer>
+    </footer>
   </main>
 </template>
 
@@ -168,7 +184,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "./assets/sass/style.scss";
 @import "~bootstrap/scss/bootstrap";
 
@@ -187,6 +203,39 @@ div{
 }
  span {
   border: 1.5px solid green;
+ }
+ //generics
+ ul{
+  li{
+    list-style-type: none;
+
+  }
+ }
+
+ a{
+ text-decoration: none;
+ color: black;
+ }
+
+ //Header
+ header{
+      div{
+
+        background-color: $white;
+
+        height: 100px;
+  }
+    button{
+      background-color: $bright_sun;
+
+      padding: 0.5rem 1rem;     
+      
+      border: none;
+        &:hover{
+          background-color: $cod_gray;
+          color: $white;
+        }
+    }
  }
 
 </style>
