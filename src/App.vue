@@ -119,6 +119,22 @@
         <img src="#" alt="#">
 
       </section>
+      <!-- cta section -->
+      <section id="cta-section">
+        <!-- bg_img -->
+        <div class="d-flex">
+          <div class="intro">
+            <!-- intro -->
+            <h5></h5>
+            <span></span>
+            <p></p>
+          </div>
+           <div class="cta">
+             <button type="button"></button>
+             <span></span>
+           </div>
+          </div>
+      </section>
   </main>
 </template>
 
