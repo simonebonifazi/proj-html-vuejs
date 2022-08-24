@@ -1,6 +1,7 @@
 <template>
   <div>
     <BaseHeader />
+
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 import BaseHeader from './components/BaseHeader.vue';
 
 export default {
-  name: 'construction',
+  name: 'ConstructionProject',
   components: {
     BaseHeader
 }
@@ -16,5 +17,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./assets/sass/style.scss";
+
 
 </style>
