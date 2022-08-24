@@ -92,6 +92,19 @@
       <span></span>
       <!-- custom points -->
       </section>
+      <!-- latest news -->
+      <section id="news">
+        <!-- intro -->
+        <h5></h5>
+        <span></span>
+        <p></p>
+        <!-- cards -->
+        <figure><img src="#" alt="#"> <figcaption></figcaption></figure>
+        <figure><img src="#" alt="#"> <figcaption></figcaption></figure>
+        <figure><img src="#" alt="#"> <figcaption></figcaption></figure>
+        <!-- SE SI RIPETE QUALCOSA; ... -->
+        <span></span>
+      </section>
   </main>
 </template>
 
