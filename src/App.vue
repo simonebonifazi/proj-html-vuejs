@@ -81,6 +81,17 @@
       <div class="values"><i></i> <span></span> <span></span> <p></p></div>
       <div class="values"><i></i> <span></span> <span></span> <p></p></div>
     </section>
+    <!-- review's secction -->
+    <section id="reviews">
+      <!-- half intro -->
+      <h5></h5>
+      <span></span>
+      <!-- review -->
+      <img src="#" alt="#">
+      <p></p>
+      <span></span>
+      <!-- custom points -->
+      </section>
   </main>
 </template>
 
