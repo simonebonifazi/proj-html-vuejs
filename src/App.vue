@@ -16,7 +16,7 @@
           <span> blabla prova</span>
           <!-- posso creare un componente, si ripete 4 volte
            ma con testo diverso che mi farò passare di volta in volta da props -->
-          <button type="button"> GET QUOTE</button> 
+          <button type="button"> GET QUOTE</button>
         </nav>
       </div>
     </header>
@@ -38,6 +38,7 @@
       </button>
 
       <div class="specialities-construction">
+        <!-- nb la intro si ripete quasi sempre per ogni sezione -->
         <h5></h5>
         <span></span>
         <p></p>
@@ -54,6 +55,20 @@
       <div><span></span><span></span><span></span></div>
     </section>
     <!-- Explore section -->
+    <section id="explore">
+      <!-- intro -->
+      <h5></h5>
+      <span></span>
+      <p></p>
+
+      <img src="#" alt="#">
+      <img src="#" alt="#">
+      <img src="#" alt="#">
+
+      <span></span>
+
+    </section>
+    
   </main>
 </template>
 
