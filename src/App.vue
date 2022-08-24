@@ -25,11 +25,14 @@
     </header>
     <!-- da mettere in seguito nel componente sopra -->
     <!-- jumbotron section -->
-    <section id="jumbotron" class="text-center">
-      <h3></h3>
-      <p></p>
-      <button type="button"></button>
-      <button type="button"></button>
+    <section id="jumbotron" class="d-flex justify-content-center  flex-column align-items-center ">
+      <!-- add minicard on top 0 right 0 -->
+      <h2> BUILDING INSPIRING SPACES</h2>
+      <p class="py-3"> We Build Inspiring Residential & Commercial Spaces</p>
+      <div class="d-flex">
+        <button type="button" class="recent-work me-2"> EXPLORE RECENT WORK</button>
+        <button type="button" class="quote"> GET A QUOTE TODAY</button>
+      </div>
     </section>
     <!-- our specialities section -->
     <section id="specialities">
@@ -190,21 +193,22 @@ export default {
 @import "~bootstrap/scss/bootstrap";
 
 //Layout
-  section{
-    min-height: 250px;
-    border: 2px dotted gold;
+//   section{
+//     min-height: 250px;
+//     border: 2px dotted gold;
 
-    margin-bottom: 2rem;
-  }
-div{
-  height: 150px;
-  border: 1px dashed black;
+//     margin-bottom: 2rem;
+//   }
+// div{
+//   height: 150px;
+//   border: 1px dashed black;
   
-  margin-bottom: 1rem;
-}
- span {
-  border: 1.5px solid green;
- }
+//   margin-bottom: 1rem;
+// }
+//  span {
+//   border: 1.5px solid green;
+//  }
+
  //generics
  ul{
   li{
@@ -220,11 +224,15 @@ div{
 
  //Header
  header{
-      div{
+   div{
+     
+     background-color: $white;
+     
+     img{
+        height: 45px;
+      }
 
-        background-color: $white;
-
-        height: 100px;
+        //height: 100px;
         .active{
           color: $bright_sun;
 
@@ -241,6 +249,38 @@ div{
           color: $white;
         }
     }
+ }
+
+ //jumbotron
+ #jumbotron{
+  background-image: url("./assets/img/home-slider-62528242.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+//temporanea
+  min-height: 500px;
+  h2{
+    color: $white;
+  }
+  p{
+    color: $bright_sun;
+  }
+  button{
+    padding: 0.7rem 1.2rem;
+    font-size:smaller;
+  }
+  .recent-work{
+    background-color: $cod_gray;
+    color: $white;
+    border: none;
+  }
+  .quote{
+    background-color: $bright_sun;
+    border:none;
+    
+  }
  }
 
 </style>
