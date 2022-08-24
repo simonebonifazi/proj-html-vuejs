@@ -10,7 +10,8 @@
           <!-- aggiungere classe active con triangolino basso e color yellow
           poi cambiare in ul li e aggiungere a e cursor pointer -->
           <ul class="d-flex m-0">
-            <li class="px-3"> <a href="#"> HOME</a></li>
+            <!-- to fix class active -->
+            <li class="px-3"> <a class="active" href="#"> HOME</a></li>
             <li class="px-3"> <a href="#"> ABOUT</a></li>
             <li class="px-3"> <a href="#"> SERVICES </a></li>
             <li class="px-3"> <a href="#"> WORK </a></li>
@@ -24,7 +25,7 @@
     </header>
     <!-- da mettere in seguito nel componente sopra -->
     <!-- jumbotron section -->
-    <section id="jumbotron">
+    <section id="jumbotron" class="text-center">
       <h3></h3>
       <p></p>
       <button type="button"></button>
@@ -224,6 +225,10 @@ div{
         background-color: $white;
 
         height: 100px;
+        .active{
+          color: $bright_sun;
+
+        }
   }
     button{
       background-color: $bright_sun;
