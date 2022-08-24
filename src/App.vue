@@ -68,7 +68,19 @@
       <span></span>
 
     </section>
-    
+    <!-- core values section -- cambia bg -->
+    <section id="core-values">
+      <!-- intro -->
+      <h5></h5>
+      <span></span>
+      <p></p>
+
+      <!-- best services -->
+      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
+      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
+      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
+      <div class="values"><i></i> <span></span> <span></span> <p></p></div>
+    </section>
   </main>
 </template>
 
