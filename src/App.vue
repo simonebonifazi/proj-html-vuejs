@@ -25,7 +25,7 @@
     </header>
     <!-- da mettere in seguito nel componente sopra -->
     <!-- jumbotron section -->
-    <section id="jumbotron" class="d-flex justify-content-center  flex-column align-items-center ">
+    <section id="jumbotron" class="d-flex justify-content-center  flex-column align-items-center mb-0">
       <!-- add minicard on top 0 right 0 -->
       <h2> BUILDING INSPIRING SPACES</h2>
       <p class="py-3"> We Build Inspiring Residential & Commercial Spaces</p>
@@ -47,7 +47,7 @@
     <!-- our specialities section -->
     <section id="specialities">
 
-      <div class="specialities-construction">
+      <div class="specialities-construction text-center">
         <!-- nb la intro si ripete quasi sempre per ogni sezione -->
         <h4>Specialists In Modern Construction</h4>
         <span class="divisor">-</span>
@@ -66,82 +66,109 @@
       <div><span></span><span></span><span></span></div>
     </section>
     <!-- Explore section -->
-    <section id="explore">
+    <section id="explore" class="text-center">
       <!-- intro -->
-      <h5></h5>
-      <span></span>
-      <p></p>
+      <h4> Explore Recent Work</h4>
+      <span class="divisor">-</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
 
-      <img src="#" alt="#">
-      <img src="#" alt="#">
-      <img src="#" alt="#">
+      <img src="./assets/img/project1-featured-294276386-200x200.jpg" alt="proj-1">
+      <img class="mx-3" src="./assets/img/project2-featured-15013609-600x600.jpg" alt="proj-2">
+      <img src="./assets/img/project3-featured-189023420-200x200.jpg" alt="proj-3">
 
-      <span></span>
+      <div class="my-5"> view all project </div>
 
     </section>
     <!-- core values section -- cambia bg -->
-    <section id="core-values">
+    <section id="core-values" class="text-center">
       <!-- intro -->
-      <h5></h5>
-      <span></span>
-      <p></p>
+      <h4>our core values</h4>
+      <span>-</span>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus modi enim iure asperiores consectetur est delectus. Dicta delectus iusto, maxime nesciunt nobis libero voluptatibus</p>
 
       <!-- best services -->
       <div class="values"><i></i> <span></span> <span></span>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
       <div class="values"><i></i> <span></span> <span></span>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
       <div class="values"><i></i> <span></span> <span></span>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
       <div class="values"><i></i> <span></span> <span></span>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
     </section>
     <!-- review's secction -->
-    <section id="reviews">
-      <!-- half intro -->
-      <h5></h5>
-      <span></span>
+    <section id="reviews" class="text-center">
+      <div class="container">
+
+        <!-- half intro -->
+      <h4>our home owners says</h4>
+      <div class="divisor">-</div>
       <!-- review -->
-      <img src="#" alt="#">
-      <p></p>
-      <span></span>
+      <img class="img-fluid" src="./assets/img/home-testimonial-113165296.jpg" alt="#">
+      <p> "No man but feels more of a man in the world if he have but a bit of ground
+        that he can call his own. 
+        However small it is on the surface, it is four thousand
+        miles deep: and that is a very handsome property."</p>
+      <div> harry smith - new home owner</div>
       <!-- custom points -->
+      </div>
     </section>
     <!-- latest news -->
-    <section id="news">
+    <section id="news" class="text-center">
       <!-- intro -->
-      <h5></h5>
-      <span></span>
-      <p></p>
+      <h4>latest news</h4>
+      <div class="divisor">-</div>
+      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid vel perspiciatis unde blanditiis sunt veniam modi inventore commodi in hic</p>
       <!-- cards -->
-      <figure><img src="#" alt="#">
-        <figcaption></figcaption>
+      <figure>
+        <img src="./assets/img/blog-post-134132600.jpg" alt="#">
+        <figcaption>
+          <h6>redeveloping florida's remote southern coast</h6>
+          <span>december 7th, 2015</span>
+          <br>
+
+          <p>Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus quibusdam eveniet maxime</p>
+        </figcaption>
       </figure>
-      <figure><img src="#" alt="#">
-        <figcaption></figcaption>
+      <figure>
+        <img src="./assets/img/blog-post-92486644.jpg" alt="#">
+        <figcaption>
+          <h6></h6>
+          <span></span>
+          <br>
+
+          <p></p>
+        </figcaption>
       </figure>
-      <figure><img src="#" alt="#">
-        <figcaption></figcaption>
+      <figure>
+        <img src="./assets/img/blog-post-332773904.jpg" alt="#">
+        <figcaption>
+          <h6></h6>
+          <span></span>
+          <br>
+
+          <p></p>
+        </figcaption>
       </figure>
       <!-- SE SI RIPETE QUALCOSA; ... -->
-      <span></span>
+      <span> view all articles</span>
     </section>
     <!-- parterns section -->
     <section id="partners">
       <!-- intro -->
-      <h5></h5>
-      <span></span>
-      <p></p>
+      <h4> Trusted partners</h4>
+      <span class="divisor">-</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum explicabo ducimus fuga expedita?</p>
       <!-- partners -->
-      <img src="#" alt="#">
-      <img src="#" alt="#">
-      <img src="#" alt="#">
-      <img src="#" alt="#">
-      <img src="#" alt="#">
+      <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
+      <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
+      <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
+      <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
+      <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
 
     </section>
     <!-- cta section -->
@@ -226,6 +253,17 @@ export default {
  text-decoration: none;
  color: black;
  }
+
+ .divisor{
+  width: 75px;
+
+  color: $bright_sun;
+ }
+
+ section{
+  margin-bottom: 3rem;
+ }
+
 
  //Header
  header{
@@ -313,13 +351,13 @@ export default {
   #specialities{
     .mini-card{
       width:150px;
-      height:150px;
+      height:120px;
 
       background-color: $pampas;
     }
   }
 
-//collabs
+//collabs section
 #our-collabs{
   min-height: 400px;
 
@@ -327,6 +365,42 @@ export default {
   background-position: center;
   background-size: cover;
 
-  
+  //trovare modo per arrotondare i bordi
+}
+
+//explore center
+#explore{
+ img{
+  width: 200px;
+  height: 200px;
+ }
+}
+
+//core values section
+#core-values{
+  background-color: $pampas;
+  min-height:450px;
+
+}
+
+//reviews section
+#reviews{
+  background-image: url("./assets/img/home-parallax-144609983.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  color: $white;
+  min-height:450px;
+  img{
+    border-radius: 50%;
+  }
+}
+//news section
+#news{
+  img{
+    width: 150px;
+    height: 75px;
+  }
 }
 </style>
