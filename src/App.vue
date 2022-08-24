@@ -1,8 +1,9 @@
 <template>
   <div>
     <BaseHeader />
-    <!-- da mettere in seguito sopra -->
 
+    <!-- da mettere in seguito nel componente sopra -->
+    <img src="./assets/img/construction_mobile_logo.png" alt="logo-avada">
   </div>
 </template>
 
