@@ -1,6 +1,7 @@
 <template>
   <div>
     <BaseHeader />
+    <!-- da mettere in seguito sopra -->
 
   </div>
 </template>
@@ -18,6 +19,7 @@ export default {
 
 <style lang="scss">
 @import "./assets/sass/style.scss";
+@import "~bootstrap/scss/bootstrap";
 
 
 </style>
