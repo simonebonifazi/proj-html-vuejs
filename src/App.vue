@@ -135,6 +135,25 @@
            </div>
           </div>
       </section>
+      <!-- footer -->
+      <footer>
+        <section id="footer-top d-flex">
+          <div class="us"></div>
+          <div class="tweets"></div>
+          <div class="contact-us"></div>
+          <div class="find-us"></div>
+        </section>
+
+        <section id="footer-bottom">
+          <div class="d-flex align-items-center justify-content-between">
+              <span> copyright</span>
+              <div>
+                
+              </div>
+          </div>
+
+        </section>
+      </footer>
   </main>
 </template>
 
