@@ -34,13 +34,17 @@
         <button type="button" class="quote"> GET A QUOTE TODAY</button>
       </div>
     </section>
+  <!-- jumbo footer -->
+      <section id="jumbo-footer">
+        <p class="text-center py-4 m-0">
+          Do You Have A Construction Project We Can Help With?
+        </p>
+        <!-- pos rel? spostare nel jumbo come footer? -->
+      </section>
     <!-- our specialities section -->
     <section id="specialities">
-      <div>
-        <!-- pos rel? spostare nel jumbo come footer? -->
-      </div>
-      <button>
-        <!-- position absolute? -->
+      <button type="button" class="free-quote">
+      <!-- position absolute? --> GET A FREE QUOTE
       </button>
 
       <div class="specialities-construction">
@@ -282,5 +286,26 @@ export default {
     
   }
  }
+
+//jumbo footer
+#jumbo-footer{
+  background-color: $bright_sun;
+  height: 80px;
+
+}
+
+.free-quote{
+    border: 1px solid $white;
+    background-color: $cod_gray;
+    color: $white;
+    font-size: smaller;
+
+    padding: 0.7rem 1.2rem;
+
+    position: relative;
+    bottom: 1rem;
+    left: 43%;
+
+  }
 
 </style>
