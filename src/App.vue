@@ -1,12 +1,14 @@
 <template>
   <main>
     <!-- <BaseHeader /> -->
-    <header>
+    <header class="container">
       <div class="d-flex justify-content-between align-items-center ">
         <figure>
           <img src="./assets/img/construction_logo.png" alt="logo">
         </figure>
         <nav>
+          <!-- aggiungere classe active con triangolino basso e color yellow
+          poi cambiare in ul li e aggiungere a e cursor pointer -->
           <span> blabla prova</span>
           <span> blabla prova</span>
           <span> blabla prova</span>
@@ -19,6 +21,39 @@
       </div>
     </header>
     <!-- da mettere in seguito nel componente sopra -->
+    <!-- jumbotron section -->
+    <section id="jumbotron">
+      <h3></h3>
+      <p></p>
+      <button type="button"></button>
+      <button type="button"></button>
+    </section>
+    <!-- our specialities section -->
+    <section id="specialities">
+      <div>
+        <!-- pos rel? spostare nel jumbo come footer? -->
+      </div>
+      <button>
+        <!-- position absolute? -->
+      </button>
+
+      <div class="specialities-construction">
+        <h5></h5>
+        <span></span>
+        <p></p>
+        <div class="mini-card">
+          <!-- da ciclare con data -->
+        </div>
+      </div>
+    </section>
+    <section id="our-collabs" class="d-flex">
+      <!-- bg img, border top to round in some ways -->
+      <div><span></span><span></span><span></span></div>
+      <div><span></span><span></span><span></span></div>
+      <div><span></span><span></span><span></span></div>
+      <div><span></span><span></span><span></span></div>
+    </section>
+    <!-- Explore section -->
   </main>
 </template>
 
@@ -41,10 +76,14 @@ export default {
   section{
     min-height: 250px;
     border: 2px dotted gold;
+
+    margin-bottom: 2rem;
   }
 div{
   height: 150px;
   border: 1px dashed black;
+  
+  margin-bottom: 1rem;
 }
  span {
   border: 1.5px solid green;
