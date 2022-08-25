@@ -123,53 +123,80 @@
       <h4>latest news</h4>
       <div class="divisor">-</div>
       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid vel perspiciatis unde blanditiis sunt veniam modi inventore commodi in hic</p>
-      <!-- cards -->
-      <figure>
-        <img src="./assets/img/blog-post-134132600.jpg" alt="#">
+     <!-- deck -->
+      <div class="card-deck d-flex justify-content-center">
+
+        <!-- cards -->
+      <div class="card">
+
+        <figure>
+          <img src="./assets/img/blog-post-134132600.jpg" alt="#">
         <figcaption>
           <h6>redeveloping florida's remote southern coast</h6>
-          <span>december 7th, 2015</span>
-          <br>
+          <span class="description pb-3">december 7th, 2015</span>
+          <hr>
 
           <p>Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus quibusdam eveniet maxime</p>
         </figcaption>
       </figure>
-      <figure>
-        <img src="./assets/img/blog-post-92486644.jpg" alt="#">
+          </div>
+
+          <div class="card mx-3">
+
+            <figure>
+              <img src="./assets/img/blog-post-92486644.jpg" alt="#">
         <figcaption>
           <h6></h6>
           <span></span>
-          <br>
+          <hr>
 
           <p></p>
         </figcaption>
       </figure>
-      <figure>
-        <img src="./assets/img/blog-post-332773904.jpg" alt="#">
+          </div>
+          <div class="card">
+
+            <figure>
+              <img src="./assets/img/blog-post-332773904.jpg" alt="#">
         <figcaption>
           <h6></h6>
           <span></span>
-          <br>
+          <hr>
 
           <p></p>
         </figcaption>
       </figure>
+          </div>
+        </div>
       <!-- SE SI RIPETE QUALCOSA; ... -->
       <span> view all articles</span>
     </section>
     <!-- parterns section -->
-    <section id="partners">
+    <section id="partners" class="text-center">
       <!-- intro -->
       <h4> Trusted partners</h4>
       <span class="divisor">-</span>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum explicabo ducimus fuga expedita?</p>
+      <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum explicabo ducimus fuga expedita?</p>
       <!-- partners -->
-      <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
-      <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
-      <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
-      <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
-      <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
+      <div class="d-flex justify-content-center">
 
+        <figure>
+          <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
+      </figure>
+      <figure class="px-3">
+        <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
+      </figure>
+      <figure class="px-3">
+        <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
+      </figure>
+      <figure class="px-3">
+        <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
+      </figure>
+      <figure>
+        <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
+      </figure>
+
+      </div>
     </section>
     <!-- cta section -->
     <section id="cta-section">
@@ -398,8 +425,31 @@ export default {
 }
 //news section
 #news{
+
+  background-color: $pampas;
   img{
     width: 150px;
+    height: 80px;
+  }
+  .card{
+    width:150px;
+    background-color: $white;
+
+    border-radius:0;
+
+    .description{
+      font-size: xx-small;
+    
+    }
+    hr{
+      background-color: $pampas;
+    }
+  }
+}
+//partners section
+#partners{
+  img{
+    width: 100px;
     height: 75px;
   }
 }
