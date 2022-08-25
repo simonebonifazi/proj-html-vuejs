@@ -178,7 +178,7 @@
       <span class="divisor">-</span>
       <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum explicabo ducimus fuga expedita?</p>
       <!-- partners -->
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center align-items-center">
 
         <figure>
           <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
@@ -199,18 +199,18 @@
       </div>
     </section>
     <!-- cta section -->
-    <section id="cta-section">
+    <section id="cta-section" class="d-flex align-items-center justify-content-center" >
       <!-- bg_img -->
-      <div class="d-flex">
-        <div class="intro">
+      <div class="d-flex justify-content-center">
+        <div class="intro ">
           <!-- intro -->
-          <h5></h5>
-          <span></span>
-          <p></p>
+          <h4> building inspiring spaces</h4>
+          <span class="divisor"> - </span>
+          <p> Labore tempora aliquid voluptates illum esse provident adipisci quidem iure</p>
         </div>
         <div class="cta">
-          <button type="button"></button>
-          <span></span>
+          <button type="button"> get a free quote</button>
+          <div> only takes a few seconds</div>
         </div>
       </div>
     </section>
@@ -289,6 +289,10 @@ export default {
 
  section{
   margin-bottom: 3rem;
+ }
+
+ figure{
+  margin: 0;
  }
 
 
@@ -453,4 +457,21 @@ export default {
     height: 75px;
   }
 }
+
+//cta-section
+#cta-section{
+  background-image: url("./assets/img/about-call-to-action-57862405.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:450px;
+
+  color: $white;
+  button{
+    color: black;
+    padding: 0.7rem 1.2rem;
+    font-size: smaller;
+  }
+}
+
 </style>
