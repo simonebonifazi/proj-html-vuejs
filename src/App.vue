@@ -1,10 +1,10 @@
 <template>
   <main>
-     <BaseHeader />
-      <BaseMain/>
-   
-    <BaseFooter/>
-  
+    <BaseHeader />
+    <BaseMain :specialities="specialities" />
+
+    <BaseFooter />
+
   </main>
 </template>
 
@@ -19,6 +19,32 @@ export default {
     BaseMain,
     BaseHeader,
     BaseFooter
+},
+data(){
+  return{
+    specialities: [
+      {
+        icon: "fa-solid fa-building",
+        title: "Buildings",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        icon: "fa-solid fa-rotate",
+        title: "Renovate",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        icon: "fa-solid fa - house-cimney",
+        title: "Construct",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+      {
+        icon: "fa-solid fa-truck",
+        title: "Exclusive",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      },
+    ]
+  }
 }
 }
 </script>

@@ -29,9 +29,14 @@
                 <h4>Specialists In Modern Construction</h4>
                 <span class="divisor"></span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
-                <div class="mini-card text-center">
+                
+                <div class="mini-deck d-flex">
+                    <div v-for="(speciality,i) in specialities" :key="i" class="mini-card mx-2">
                     <!-- da ciclare con data -->
-
+                        <i :class="speciality.icon"></i>
+                        <h4> {{ speciality.title}}</h4>
+                        <p>{{ speciality.description}}</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -94,7 +99,7 @@
                         tenetur
                         perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
                 </div>
-                <div class="values d-flex flex-column">
+                <div class="values d-flex flex-column px-2">
                     <i class="fa-solid fa-gear"></i>
                     <span class="pt-3">Highest Standards</span>
                     <span class="pb-3">_</span>
@@ -102,7 +107,7 @@
                         tenetur
                         perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
                 </div>
-                <div class="values d-flex flex-column">
+                <div class="values d-flex flex-column pe-2">
                     <i class="fa-solid fa-users"></i>
                     <span class="pt-3">Professional Teams</span>
                     <span class="pb-3">_</span>
@@ -251,8 +256,8 @@
 export default {
     name:"BaseMain",
     props: {
-
-    }
+        specialities: Array,
+    },
 
 }
 </script>
@@ -322,8 +327,7 @@ export default {
 #specialities {
     .mini-card {
         width: 150px;
-        height: 120px;
-
+        padding: 0.5rem;
         background-color: $pampas;
     }
 }

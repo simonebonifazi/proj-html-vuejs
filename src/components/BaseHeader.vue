@@ -4,7 +4,7 @@
         <figure>
           <img src="../assets/img/construction_logo.png" alt="logo">
         </figure>
-        <nav class="d-flex align-items-center">
+        <nav class="d-flex align-items-center p-2">
           <!-- aggiungere classe active con triangolino basso e color yellow
           poi cambiare in ul li e aggiungere a e cursor pointer -->
           <ul class="d-flex m-0">
