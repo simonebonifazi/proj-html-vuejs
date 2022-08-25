@@ -36,7 +36,7 @@
       </div>
     </section>
     <!-- jumbo footer -->
-    <section id="jumbo-footer">
+    <section id="jumbo-footer" class="p-0">
       <p class="text-center py-4 m-0">
         Do You Have A Construction Project We Can Help With?
       </p>
@@ -59,12 +59,28 @@
         </div>
       </div>
     </section>
-    <section id="our-collabs" class="d-flex">
+    <section id="our-collabs" class="d-flex justify-content-center align-items-center">
       <!-- bg img, border top to round in some ways -->
-      <div><span></span><span></span><span></span></div>
-      <div><span></span><span></span><span></span></div>
-      <div><span></span><span></span><span></span></div>
-      <div><span></span><span></span><span></span></div>
+      <div class="text-center">
+        <div>3534</div>
+        <div><i class="fa-solid fa-city"></i></div>
+        <span>planning applications</span>
+      </div>
+      <div class="text-center px-3">
+        <div>896</div>
+        <div><i class="fa-solid fa-building"></i></div>
+        <span> completed projects</span>
+      </div>
+      <div class="text-center pe-3">
+        <div>172</div>
+        <div><i class="fa-solid fa-users"></i></div>
+        <span>trained professionals</span>
+      </div>
+      <div class="text-center">
+        <div>19</div>
+        <div><i class="fa-solid fa-globe"></i></div>
+        <span>international offices</span>
+      </div>
     </section>
     <!-- Explore section -->
     <section id="explore" class="d-flex align-items-center flex-column">
@@ -73,11 +89,11 @@
       <span class="divisor"></span>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
 
-  <div class="d-flex">
-    <img src="./assets/img/project1-featured-294276386-200x200.jpg" alt="proj-1">
-      <img class="mx-3" src="./assets/img/project2-featured-15013609-600x600.jpg" alt="proj-2">
-      <img src="./assets/img/project3-featured-189023420-200x200.jpg" alt="proj-3">
-  </div>
+      <div class="d-flex">
+        <img src="./assets/img/project1-featured-294276386-200x200.jpg" alt="proj-1">
+        <img class="mx-3" src="./assets/img/project2-featured-15013609-600x600.jpg" alt="proj-2">
+        <img src="./assets/img/project3-featured-189023420-200x200.jpg" alt="proj-3">
+      </div>
 
       <div class="my-5"> view all project </div>
 
@@ -94,21 +110,21 @@
       <div class="d-flex">
 
         <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
-          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-      </div>
-      <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
-          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-      </div>
-      <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
-          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-      </div>
-      <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
-          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-      </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+            perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        </div>
+        <div class="values"><i></i> <span></span> <span></span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+            perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        </div>
+        <div class="values"><i></i> <span></span> <span></span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+            perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        </div>
+        <div class="values"><i></i> <span></span> <span></span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+            perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        </div>
       </div>
     </section>
     <!-- review's secction -->
@@ -116,15 +132,18 @@
       <div class="container py-5">
 
         <!-- half intro -->
-        <h4>our home owners says</h4>
-        <div class="divisor text-center"></div>
+        <div class="d-flex flex-column align-items-center">
+
+          <h4>our home owners says</h4>
+          <div class="divisor text-center"></div>
+        </div>
         <!-- review -->
         <img class="img-fluid" src="./assets/img/home-testimonial-113165296.jpg" alt="#">
-        <p> "No man but feels more of a man in the world if he have but a bit of ground
+        <p class="py-3"> "No man but feels more of a man in the world if he have but a bit of ground
           that he can call his own.
           However small it is on the surface, it is four thousand
           miles deep: and that is a very handsome property."</p>
-        <div> harry smith - new home owner</div>
+        <div class="reviewer fw-bold"> harry smith - new home owner</div>
         <!-- custom points -->
       </div>
     </section>
@@ -197,10 +216,10 @@
 
         <figure>
           <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
-          </figure>
+        </figure>
         <figure class="px-3">
           <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
-          </figure>
+        </figure>
         <figure class="px-3">
           <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
         </figure>
@@ -225,7 +244,7 @@
         </div>
         <div class="cta">
           <button type="button"> get a free quote</button>
-          <div class="py-3">  only takes a few seconds</div>
+          <div class="py-3"> only takes a few seconds</div>
         </div>
       </div>
     </section>
@@ -328,7 +347,7 @@
         </div>
       </section>
 
-      <section id="footer-bottom" class="mb-0 px-4">
+      <section id="footer-bottom" class="py-0 px-4">
         <div class="d-flex align-items-center justify-content-between py-4 px-5">
           <div> copyright 2012 - 2016 avada by <span class="fw-bold"> THEME FUSION</span> | all rights reserved |
             powered by <span class="fw-bold"> wordpress</span>
@@ -363,23 +382,6 @@ export default {
 @import "./assets/sass/style.scss";
 @import "~bootstrap/scss/bootstrap";
 
-//Layout
-//   section{
-//     min-height: 250px;
-//     border: 2px dotted gold;
-
-//     margin-bottom: 2rem;
-//   }
-// div{
-//   height: 150px;
-//   border: 1px dashed black;
-  
-//   margin-bottom: 1rem;
-// }
-//  span {
-//   border: 1.5px solid green;
-//  }
-
  //generics
  * {
    font-family: Arial, Helvetica, sans-serif;
@@ -407,7 +409,7 @@ export default {
  }
 
  section{
-  margin-bottom: 3rem;
+  padding: 3rem 0;
  }
 
  figure{
@@ -530,7 +532,14 @@ export default {
   background-position: center;
   background-size: cover;
 
-  //trovare modo per arrotondare i bordi
+  color: $bright_sun;
+  font-size: xx-large;
+
+  span{
+    font-size:small;
+    text-transform: uppercase;
+  }
+ 
 }
 
 //explore center
@@ -559,6 +568,9 @@ export default {
   min-height:450px;
   img{
     border-radius: 50%;
+  }
+  .reviewer{
+    text-transform: uppercase;
   }
 }
 //news section
