@@ -225,7 +225,7 @@
     </section>
     <!-- footer -->
     <footer>
-      <section id="footer-top" class="d-flex justify-content-center pt-3">
+      <section id="footer-top" class="d-flex justify-content-center py-5  mb-0 ">
         <div class="us">
           <figure>
             <img src="./assets/img/footer-logo.png" alt="logo-footer">
@@ -236,7 +236,7 @@
           </figcaption>
           <button type="button"> learn more</button>
         </div>
-        <div class="tweets">
+        <div class="tweets px-2">
           <h4 class="pb-3"> LATEST TWEETS</h4>
           <div class="d-flex justify-content-between">
 
@@ -273,18 +273,68 @@
             </figcaption>
           </div>
         </div>
-        <div class="contact-us">
-          
+        <div class="contact-us px-2">
+          <h4 class="pb-3">contact us today </h4>
+          <ul>
+            <li class="d-flex pb-3">
+              <i class="fa-solid fa-globe"></i>
+              <div class="d-flex-flex-column">
+
+                <div class="ps-4">Corporate Location</div>
+                <div class="ps-4">1600 Amphitheatre Parkway</div>
+                <div class="ps-4">London WC11BA</div>
+              </div>
+            </li>
+            <li class="d-flex pb-3">
+              <i class="fa-solid fa-house"></i>
+              <div class="d-flex flex-column">
+
+                <div class="ps-4">Residential Location</div>
+                <div class="ps-4">9521 Broadsberry Avenue</div>
+                <div class="ps-4">Paddington RC7 9ZA</div>
+              </div>
+            </li>
+            <li class="d-flex pb-3">
+              <i class="fa-solid fa-phone-flip"></i>
+              <div class="ps-4"> 1.800.458.556 / 1.800.532.2112</div>
+            </li>
+            <li class="d-flex pb-3">
+              <i class="fa-regular fa-envelope"></i>
+              <div class="ps-4"> info@your-domain.com</div>
+            </li>
+            <li class="d-flex pb-3">
+              <i class="fa-regular fa-clock"></i>
+              <div class="ps-4">Monday - Friday: 9:00 AM - 6:00 PM</div>
+            </li>
+            <li class="d-flex pb-3">
+              <i class="fa-regular fa-clock"></i>
+              <div class="ps-4">Saturday - Sunday: 9:00 AM - 12:00 PM</div>
+            </li>
+          </ul>
         </div>
-        <div class="find-us"></div>
+        <div class="find-us">
+          <h4>
+            find us
+          </h4>
+          <figure>
+            <img src="./assets/img/home-244125289.jpg" alt="location" class="img-fluid">
+          </figure>
+        </div>
       </section>
 
-      <section id="footer-bottom">
-        <div class="d-flex align-items-center justify-content-between">
-          <span> copyright</span>
-          <div>
-
+      <section id="footer-bottom" class="mb-0 px-4">
+        <div class="d-flex align-items-center justify-content-between py-4 px-5">
+          <div> copyright 2012 - 2016 avada by <span class="fw-bold"> THEME FUSION</span> | all rights reserved |
+            powered by <span class="fw-bold"> wordpress</span>
           </div>
+
+          <div class="icons">
+            <i class=" fa-brands fa-facebook-f"></i>
+            <i class="px-3 fa-brands fa-twitter"></i>
+            <i class="pe-3 fa-brands fa-youtube"></i>
+            <i class=" fa-brands fa-instagram"></i>
+          </div>
+
         </div>
 
       </section>
@@ -326,6 +376,7 @@ export default {
 
  //generics
  ul{
+  padding:0;
   li{
     list-style-type: none;
 
@@ -532,13 +583,12 @@ export default {
 //footer
 footer{
   background-color: $tuatara ;
-  height: 450px;
-
 }
 
 #footer-top{
   .us,.tweets,.contact-us,.find-us{
     flex-basis: 22%;
+    margin-bottom:0;
   }
   .us{
     color: $dove_gray;
@@ -572,6 +622,33 @@ footer{
       color:$dove_gray;
     }
   }
+  .contact-us{
+    color: $dove_gray;
+    font-size: smaller;
+    h4{
+      color: $bright_sun;
+      font-size:x-small;
+      text-transform: uppercase;
+    }
+  }
+  .find-us{
+    h4 {
+        color: $bright_sun;
+        font-size: x-small;
+        text-transform: uppercase;
+      }
+  }
 }
+//footer bottom
+#footer-bottom{
+  background-color: $cod_gray;
+  color: $dove_gray;
+  font-size: smaller;
 
+  div,span{
+    text-transform: uppercase;
+    
+  }
+
+}
 </style>
