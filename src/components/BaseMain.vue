@@ -92,11 +92,11 @@
             <div class="d-flex container text-center">
 
                 <div v-for="(value, i) in values" :key="i" class="d-flex flex-column align-items-center px-2">
-                        <i :class="value.icon"></i>
-                        <span class="pt-3"> {{value.title}}</span>
-                        <span class="pb-3">_</span>
-                        <p> {{value.description}}</p>
-                </div>                   
+                    <i :class="value.icon"></i>
+                    <span class="pt-3"> {{value.title}}</span>
+                    <span class="pb-3">_</span>
+                    <p> {{value.description}}</p>
+                </div>
             </div>
         </section>
         <!-- review's secction -->
@@ -131,18 +131,16 @@
             <div class="card-deck d-flex justify-content-center">
 
                 <!-- cards -->
-                <div class="card">
+                <div v-for="(item, i) in news" :key="i" class="card">
 
                     <figure>
-                        <img src="../assets/img/blog-post-134132600.jpg" alt="#">
+                        <img :src="item.src" :alt="item.title">
                         <figcaption class="p-2">
-                            <h6>redeveloping florida's remote southern coast</h6>
-                            <span class="description pb-3">december 7th, 2015</span>
+                            <h6>{{item.title}}</h6>
+                            <span class="description pb-3">{{item.date}}</span>
                             <hr>
 
-                            <p>Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Natus accusamus
-                                quibusdam eveniet maxime</p>
+                            <p>{{item.description}}</p>
                         </figcaption>
                     </figure>
                 </div>
@@ -232,6 +230,7 @@ export default {
     props: {
         specialities: Array,
         values: Array,
+        news: Array,
     },
 
 }
