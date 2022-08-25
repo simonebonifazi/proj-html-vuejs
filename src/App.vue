@@ -95,7 +95,7 @@
         <img src="./assets/img/project3-featured-189023420-200x200.jpg" alt="proj-3">
       </div>
 
-      <div class="my-5"> view all project </div>
+      <div class="my-5"> VIEW ALL PROJECTS </div>
 
     </section>
     <!-- core values section -- cambia bg -->
@@ -103,25 +103,38 @@
       <!-- intro -->
       <h4>our core values</h4>
       <span class="divisor"></span>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus modi enim iure asperiores consectetur est
+      <p class="pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus modi enim iure asperiores
+        consectetur est
         delectus. Dicta delectus iusto, maxime nesciunt nobis libero voluptatibus</p>
 
       <!-- best services -->
-      <div class="d-flex">
+      <div class="d-flex container">
 
-        <div class="values"><i></i> <span></span> <span></span>
+        <div class="values d-flex flex-column">
+          <i class="fa-solid fa-house-chimney"></i>
+          <span  class="pt-3">Great Services</span>
+          <span class="pb-3">_</span>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
             perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
         </div>
-        <div class="values"><i></i> <span></span> <span></span>
+        <div class="values d-flex flex-column">
+          <i class="fa-solid fa-gear"></i>
+          <span class="pt-3">Highest Standards</span>
+          <span class="pb-3">_</span>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
             perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
         </div>
-        <div class="values"><i></i> <span></span> <span></span>
+        <div class="values d-flex flex-column">
+          <i class="fa-solid fa-users"></i>
+          <span class="pt-3">Professional Teams</span>
+          <span class="pb-3">_</span>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
             perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
         </div>
-        <div class="values"><i></i> <span></span> <span></span>
+        <div class="values d-flex flex-column">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span class="pt-3">Creative Solutions</span>
+          <span class="pb-3">_</span>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
             perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
         </div>
@@ -201,7 +214,7 @@
         </div>
       </div>
       <!-- SE SI RIPETE QUALCOSA; ... -->
-      <span class="py-5"> view all articles</span>
+      <span class="py-5"> VIEW ALL ARTICLES</span>
     </section>
     <!-- parterns section -->
     <section id="partners" class=" container d-flex flex-column align-items-center">
