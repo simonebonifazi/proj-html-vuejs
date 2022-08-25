@@ -34,16 +34,16 @@
         <button type="button" class="quote"> GET A QUOTE TODAY</button>
       </div>
     </section>
-  <!-- jumbo footer -->
-      <section id="jumbo-footer">
-        <p class="text-center py-4 m-0">
-          Do You Have A Construction Project We Can Help With?
-        </p>
-        <!-- pos rel? spostare nel jumbo come footer? -->
+    <!-- jumbo footer -->
+    <section id="jumbo-footer">
+      <p class="text-center py-4 m-0">
+        Do You Have A Construction Project We Can Help With?
+      </p>
+      <!-- pos rel? spostare nel jumbo come footer? -->
       <button type="button" class="free-quote">
-      <!-- position absolute? --> GET A FREE QUOTE
+        <!-- position absolute? --> GET A FREE QUOTE
       </button>
-      </section>
+    </section>
     <!-- our specialities section -->
     <section id="specialities">
 
@@ -54,7 +54,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
         <div class="mini-card text-center">
           <!-- da ciclare con data -->
-          
+
         </div>
       </div>
     </section>
@@ -84,20 +84,25 @@
       <!-- intro -->
       <h4>our core values</h4>
       <span>-</span>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus modi enim iure asperiores consectetur est delectus. Dicta delectus iusto, maxime nesciunt nobis libero voluptatibus</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus modi enim iure asperiores consectetur est
+        delectus. Dicta delectus iusto, maxime nesciunt nobis libero voluptatibus</p>
 
       <!-- best services -->
       <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
       <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
       <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
       <div class="values"><i></i> <span></span> <span></span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
+          perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
     </section>
     <!-- review's secction -->
@@ -105,16 +110,16 @@
       <div class="container">
 
         <!-- half intro -->
-      <h4>our home owners says</h4>
-      <div class="divisor">-</div>
-      <!-- review -->
-      <img class="img-fluid" src="./assets/img/home-testimonial-113165296.jpg" alt="#">
-      <p> "No man but feels more of a man in the world if he have but a bit of ground
-        that he can call his own. 
-        However small it is on the surface, it is four thousand
-        miles deep: and that is a very handsome property."</p>
-      <div> harry smith - new home owner</div>
-      <!-- custom points -->
+        <h4>our home owners says</h4>
+        <div class="divisor">-</div>
+        <!-- review -->
+        <img class="img-fluid" src="./assets/img/home-testimonial-113165296.jpg" alt="#">
+        <p> "No man but feels more of a man in the world if he have but a bit of ground
+          that he can call his own.
+          However small it is on the surface, it is four thousand
+          miles deep: and that is a very handsome property."</p>
+        <div> harry smith - new home owner</div>
+        <!-- custom points -->
       </div>
     </section>
     <!-- latest news -->
@@ -122,52 +127,54 @@
       <!-- intro -->
       <h4>latest news</h4>
       <div class="divisor">-</div>
-      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid vel perspiciatis unde blanditiis sunt veniam modi inventore commodi in hic</p>
-     <!-- deck -->
+      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid vel perspiciatis unde blanditiis sunt veniam
+        modi inventore commodi in hic</p>
+      <!-- deck -->
       <div class="card-deck d-flex justify-content-center">
 
         <!-- cards -->
-      <div class="card">
+        <div class="card">
 
-        <figure>
-          <img src="./assets/img/blog-post-134132600.jpg" alt="#">
-        <figcaption>
-          <h6>redeveloping florida's remote southern coast</h6>
-          <span class="description pb-3">december 7th, 2015</span>
-          <hr>
+          <figure>
+            <img src="./assets/img/blog-post-134132600.jpg" alt="#">
+            <figcaption>
+              <h6>redeveloping florida's remote southern coast</h6>
+              <span class="description pb-3">december 7th, 2015</span>
+              <hr>
 
-          <p>Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus quibusdam eveniet maxime</p>
-        </figcaption>
-      </figure>
-          </div>
-
-          <div class="card mx-3">
-
-            <figure>
-              <img src="./assets/img/blog-post-92486644.jpg" alt="#">
-        <figcaption>
-          <h6></h6>
-          <span></span>
-          <hr>
-
-          <p></p>
-        </figcaption>
-      </figure>
-          </div>
-          <div class="card">
-
-            <figure>
-              <img src="./assets/img/blog-post-332773904.jpg" alt="#">
-        <figcaption>
-          <h6></h6>
-          <span></span>
-          <hr>
-
-          <p></p>
-        </figcaption>
-      </figure>
-          </div>
+              <p>Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus
+                quibusdam eveniet maxime</p>
+            </figcaption>
+          </figure>
         </div>
+
+        <div class="card mx-3">
+
+          <figure>
+            <img src="./assets/img/blog-post-92486644.jpg" alt="#">
+            <figcaption>
+              <h6></h6>
+              <span></span>
+              <hr>
+
+              <p></p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="card">
+
+          <figure>
+            <img src="./assets/img/blog-post-332773904.jpg" alt="#">
+            <figcaption>
+              <h6></h6>
+              <span></span>
+              <hr>
+
+              <p></p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
       <!-- SE SI RIPETE QUALCOSA; ... -->
       <span> view all articles</span>
     </section>
@@ -176,30 +183,32 @@
       <!-- intro -->
       <h4> Trusted partners</h4>
       <span class="divisor">-</span>
-      <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum explicabo ducimus fuga expedita?</p>
+      <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum
+        atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum
+        explicabo ducimus fuga expedita?</p>
       <!-- partners -->
       <div class="d-flex justify-content-center align-items-center">
 
         <figure>
           <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
-      </figure>
-      <figure class="px-3">
-        <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
-      </figure>
-      <figure class="px-3">
-        <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
-      </figure>
-      <figure class="px-3">
-        <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
-      </figure>
-      <figure>
-        <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
-      </figure>
+        </figure>
+        <figure class="px-3">
+          <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
+        </figure>
+        <figure class="px-3">
+          <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
+        </figure>
+        <figure class="px-3">
+          <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
+        </figure>
+        <figure>
+          <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
+        </figure>
 
       </div>
     </section>
     <!-- cta section -->
-    <section id="cta-section" class="d-flex align-items-center justify-content-center" >
+    <section id="cta-section" class="d-flex align-items-center justify-content-center mb-0">
       <!-- bg_img -->
       <div class="d-flex justify-content-center">
         <div class="intro ">
@@ -216,9 +225,54 @@
     </section>
     <!-- footer -->
     <footer>
-      <section id="footer-top d-flex">
-        <div class="us"></div>
-        <div class="tweets"></div>
+      <section id="footer-top" class="d-flex justify-content-center pt-3">
+        <div class="us">
+          <figure>
+            <img src="./assets/img/footer-logo.png" alt="logo-footer">
+          </figure>
+          <figcaption class="py-3">
+            We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride
+            ourselves on delivering outstanding quality and design for leading clients across the world.
+          </figcaption>
+          <button type="button"> learn more</button>
+        </div>
+        <div class="tweets">
+          <h4 class="pb-3"> LATEST TWEETS</h4>
+          <div class="d-flex justify-content-between">
+
+            <figure class="d-flex tweets-intro">
+              <img class="img-fluid" src="./assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="theme-logo">
+              <figcaption>
+                <div class="fw-bold"> ThemeFusion</div>
+                <div>@Theme_Fusion</div>
+              </figcaption>
+            </figure>
+            <img class="miniature" src="./assets/img/image (1).svg" alt="twit-logo">
+          </div>
+          <div class="ms-5 pb-1">
+            Do you need sublime WordPress hosting for your next website?
+            Take advantage of exclusive partner offers that we have secured just for you,
+            & launch your site in seconds whith <span class="hashtag">#avada</span> on WP Engine hosting
+            & get 30% Off this Black Friday <a class="linkable"> bit.ly/3kjLLE2</a> <span
+              class="hashtag">#BlackFriday2020</span>
+
+            <figure class="py-3">
+              <img class="img-fluid" src="./assets/img/En2TRxLW4AEiWUN.jpeg" alt="wp-engine-discount">
+            </figure>
+            <figcaption class="d-flex justify-content-between align-items-center">
+              <div class="d-flex">
+                <figure>
+                  <img class="miniature" src="./assets/img/image (2).svg" alt="heart-reg">
+                </figure>
+                <figure class="ps-4">
+
+                  <img class="miniature" src="./assets/img/image (3).svg" alt="exit">
+                </figure>
+              </div>
+              <span> 22h</span>
+            </figcaption>
+          </div>
+        </div>
         <div class="contact-us"></div>
         <div class="find-us"></div>
       </section>
@@ -470,7 +524,51 @@ export default {
   button{
     color: black;
     padding: 0.7rem 1.2rem;
-    font-size: smaller;
+  }
+}
+
+//footer
+footer{
+  background-color: $tuatara ;
+  height: 450px;
+
+}
+
+#footer-top{
+  .us,.tweets,.contact-us,.find-us{
+    flex-basis: 22%;
+  }
+  .us{
+    color: $dove_gray;
+    line-height: 2rem;
+  }
+  .tweets{
+    color:$white;
+    font-size: small;
+    h4{
+      font-size:x-small;
+    }
+    .tweets-intro{
+
+        img{
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        }
+      }
+    .miniature{
+      width: 20px;
+      height: 20px;
+    }
+    .hashtag,.linkable{
+      color: $venice_blu;
+    }
+    a{
+      cursor:pointer;
+    }
+    figcaption{
+      color:$dove_gray;
+    }
   }
 }
 
