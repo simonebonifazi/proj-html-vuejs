@@ -28,6 +28,7 @@
     <section id="jumbotron" class="d-flex justify-content-center  flex-column align-items-center mb-0">
       <!-- add minicard on top 0 right 0 -->
       <h2> BUILDING INSPIRING SPACES</h2>
+      <span class="divisor"></span>
       <p class="py-3"> We Build Inspiring Residential & Commercial Spaces</p>
       <div class="d-flex">
         <button type="button" class="recent-work me-2"> EXPLORE RECENT WORK</button>
@@ -47,10 +48,10 @@
     <!-- our specialities section -->
     <section id="specialities">
 
-      <div class="specialities-construction text-center">
+      <div class="specialities-construction text-center d-flex flex-column align-items-center">
         <!-- nb la intro si ripete quasi sempre per ogni sezione -->
         <h4>Specialists In Modern Construction</h4>
-        <span class="divisor">-</span>
+        <span class="divisor"></span>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
         <div class="mini-card text-center">
           <!-- da ciclare con data -->
@@ -66,29 +67,33 @@
       <div><span></span><span></span><span></span></div>
     </section>
     <!-- Explore section -->
-    <section id="explore" class="text-center">
+    <section id="explore" class="d-flex align-items-center flex-column">
       <!-- intro -->
       <h4> Explore Recent Work</h4>
-      <span class="divisor">-</span>
+      <span class="divisor"></span>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
 
-      <img src="./assets/img/project1-featured-294276386-200x200.jpg" alt="proj-1">
+  <div class="d-flex">
+    <img src="./assets/img/project1-featured-294276386-200x200.jpg" alt="proj-1">
       <img class="mx-3" src="./assets/img/project2-featured-15013609-600x600.jpg" alt="proj-2">
       <img src="./assets/img/project3-featured-189023420-200x200.jpg" alt="proj-3">
+  </div>
 
       <div class="my-5"> view all project </div>
 
     </section>
     <!-- core values section -- cambia bg -->
-    <section id="core-values" class="text-center">
+    <section id="core-values" class="d-flex flex-column align-items-center justify-content-center">
       <!-- intro -->
       <h4>our core values</h4>
-      <span>-</span>
+      <span class="divisor"></span>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus modi enim iure asperiores consectetur est
         delectus. Dicta delectus iusto, maxime nesciunt nobis libero voluptatibus</p>
 
       <!-- best services -->
-      <div class="values"><i></i> <span></span> <span></span>
+      <div class="d-flex">
+
+        <div class="values"><i></i> <span></span> <span></span>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
           perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
       </div>
@@ -103,15 +108,16 @@
       <div class="values"><i></i> <span></span> <span></span>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt tenetur
           perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
+      </div>
       </div>
     </section>
     <!-- review's secction -->
     <section id="reviews" class="text-center">
-      <div class="container">
+      <div class="container py-5">
 
         <!-- half intro -->
         <h4>our home owners says</h4>
-        <div class="divisor">-</div>
+        <div class="divisor text-center"></div>
         <!-- review -->
         <img class="img-fluid" src="./assets/img/home-testimonial-113165296.jpg" alt="#">
         <p> "No man but feels more of a man in the world if he have but a bit of ground
@@ -123,10 +129,10 @@
       </div>
     </section>
     <!-- latest news -->
-    <section id="news" class="text-center">
+    <section id="news" class="pt-5 d-flex flex-column align-items-center">
       <!-- intro -->
       <h4>latest news</h4>
-      <div class="divisor">-</div>
+      <div class="divisor"></div>
       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid vel perspiciatis unde blanditiis sunt veniam
         modi inventore commodi in hic</p>
       <!-- deck -->
@@ -176,13 +182,13 @@
         </div>
       </div>
       <!-- SE SI RIPETE QUALCOSA; ... -->
-      <span> view all articles</span>
+      <span class="py-5"> view all articles</span>
     </section>
     <!-- parterns section -->
-    <section id="partners" class="text-center">
+    <section id="partners" class=" container d-flex flex-column align-items-center">
       <!-- intro -->
       <h4> Trusted partners</h4>
-      <span class="divisor">-</span>
+      <span class="divisor"></span>
       <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis culpa suscipit assumenda, dolorum
         atque asperiores! Tempore nulla perferendis quaerat quidem consequuntur dolorum aliquam, eum iste! Illum
         explicabo ducimus fuga expedita?</p>
@@ -190,19 +196,19 @@
       <div class="d-flex justify-content-center align-items-center">
 
         <figure>
-          <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
-        </figure>
+          <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
+          </figure>
+        <figure class="px-3">
+          <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
+          </figure>
         <figure class="px-3">
           <img src="./assets/img/home-logo2-219096700-320x202.png" alt="#">
         </figure>
         <figure class="px-3">
-          <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
-        </figure>
-        <figure class="px-3">
-          <img src="./assets/img/home-logo11-219096700-320x202.png" alt="#">
+          <img src="./assets/img/home-logo1-219096700-320x202.png" alt="#">
         </figure>
         <figure>
-          <img src="./assets/img/home-logo10-219096700-320x202.png" alt="#">
+          <img src="./assets/img/home-logo9-219096700-320x202.png" alt="#">
         </figure>
 
       </div>
@@ -210,16 +216,16 @@
     <!-- cta section -->
     <section id="cta-section" class="d-flex align-items-center justify-content-center mb-0">
       <!-- bg_img -->
-      <div class="d-flex justify-content-center">
-        <div class="intro ">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="intro pe-5">
           <!-- intro -->
           <h4> building inspiring spaces</h4>
-          <span class="divisor"> - </span>
+          <span class="divisor"></span>
           <p> Labore tempora aliquid voluptates illum esse provident adipisci quidem iure</p>
         </div>
         <div class="cta">
           <button type="button"> get a free quote</button>
-          <div> only takes a few seconds</div>
+          <div class="py-3">  only takes a few seconds</div>
         </div>
       </div>
     </section>
@@ -375,6 +381,10 @@ export default {
 //  }
 
  //generics
+ * {
+   font-family: Arial, Helvetica, sans-serif;
+   }
+
  ul{
   padding:0;
   li{
@@ -389,9 +399,11 @@ export default {
  }
 
  .divisor{
-  width: 75px;
-
-  color: $bright_sun;
+  width: 105px;
+  height: 2px;
+  display:block;
+  margin: 2.2rem 0;
+  border: 1px solid $bright_sun;
  }
 
  section{
@@ -402,9 +414,24 @@ export default {
   margin: 0;
  }
 
+ h4{
+  text-transform: capitalize;
+ }
+
+ button{
+   text-transform: uppercase;
+   border:none;
+ }
+
+ hr{
+  margin: 0 10px;
+ }
+
+
 
  //Header
  header{
+  padding:0.5rem;
    div{
      
      background-color: $white;
@@ -441,7 +468,7 @@ export default {
 
   background-size: cover;
 //temporanea
-  min-height: 500px;
+  min-height: 300px;
   h2{
     color: $white;
   }
@@ -577,6 +604,10 @@ export default {
   button{
     color: black;
     padding: 0.7rem 1.2rem;
+    font-size:small;
+  }
+  .cta>div{
+    font-size:xx-small;
   }
 }
 
@@ -643,7 +674,7 @@ footer{
 #footer-bottom{
   background-color: $cod_gray;
   color: $dove_gray;
-  font-size: smaller;
+  font-size: x-small;
 
   div,span{
     text-transform: uppercase;
