@@ -1,0 +1,47 @@
+ //generics
+ * {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ ul {
+     padding: 0;
+
+     li {
+         list-style-type: none;
+
+     }
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .divisor {
+     width: 105px;
+     height: 2px;
+     display: block;
+     margin: 2.2rem 0;
+     border: 1px solid $bright_sun;
+ }
+
+ section {
+     padding: 3rem 0;
+ }
+
+ figure {
+     margin: 0;
+ }
+
+ h4 {
+     text-transform: capitalize;
+ }
+
+ button {
+     text-transform: uppercase;
+     border: none;
+ }
+
+ hr {
+     margin: 0 10px;
+ }
