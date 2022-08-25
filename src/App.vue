@@ -68,19 +68,19 @@ data(){
   ],
     news: [
       {
-        src: "../assets/img/blog-post-134132600.jpg",
+        src: "blog-post-134132600",
         title: "redeveloping florida's remote southern coast",
         date:"december 7th, 2015",
         description: "Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus quibusdam eveniet maxime",
       },
       {
-        src: "../assets/img/blog-post-92486644.jpg",
+        src: "blog-post-92486644",
         title: "how we manage large construction projects",
         date:"december 7th, 2015",
         description: "Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus quibusdam eveniet maxime",
       },
       {
-        src: "../assets/img/blog-post-332773904.jpg",
+        src: "blog-post-332773904",
         title: "Future proofing a modern home",
         date:"december 6th, 2015",
         description: "Technology is Here to Stay Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus accusamus quibusdam eveniet maxime",

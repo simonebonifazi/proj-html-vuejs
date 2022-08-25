@@ -131,10 +131,10 @@
             <div class="card-deck d-flex justify-content-center">
 
                 <!-- cards -->
-                <div v-for="(item, i) in news" :key="i" class="card">
+                <div v-for="(item, i) in news" :key="i" class="card mx-3">
 
                     <figure>
-                        <img :src="item.src" :alt="item.title">
+                        <img :src="require(`../assets/img/${item.src}.jpg`)" :alt="item.title">
                         <figcaption class="p-2">
                             <h6>{{item.title}}</h6>
                             <span class="description pb-3">{{item.date}}</span>
@@ -144,33 +144,9 @@
                         </figcaption>
                     </figure>
                 </div>
+                <!-- <img src="../assets/img/blog-post-92486644.jpg" alt="#"> -->
 
-                <div class="card mx-3">
-
-                    <figure>
-                        <img src="../assets/img/blog-post-92486644.jpg" alt="#">
-                        <figcaption>
-                            <h6></h6>
-                            <span></span>
-                            <hr>
-
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="card">
-
-                    <figure>
-                        <img src="../assets/img/blog-post-332773904.jpg" alt="#">
-                        <figcaption>
-                            <h6></h6>
-                            <span></span>
-                            <hr>
-
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                </div>
+                <!-- <img src="../assets/img/blog-post-332773904.jpg" alt="#"> -->
             </div>
             <!-- SE SI RIPETE QUALCOSA; ... -->
             <span class="py-5"> VIEW ALL ARTICLES</span>
