@@ -29,11 +29,11 @@
                 <h4>Specialists In Modern Construction</h4>
                 <span class="divisor"></span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed provident ex sapiente ut maxim?</p>
-                
+
                 <div class="mini-deck d-flex">
                     <div v-for="(speciality,i) in specialities" :key="i" class="mini-card mx-2">
-                    <!-- da ciclare con data -->
-                        <i :class="speciality.icon"></i>
+                        <!-- da ciclare con data -->
+                        <i :class="speciality.icon" class="rounded-5"></i>
                         <h4> {{ speciality.title}}</h4>
                         <p>{{ speciality.description}}</p>
                     </div>
@@ -89,40 +89,14 @@
                 delectus. Dicta delectus iusto, maxime nesciunt nobis libero voluptatibus</p>
 
             <!-- best services -->
-            <div class="d-flex container">
+            <div class="d-flex container text-center">
 
-                <div class="values d-flex flex-column">
-                    <i class="fa-solid fa-house-chimney"></i>
-                    <span class="pt-3">Great Services</span>
-                    <span class="pb-3">_</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt
-                        tenetur
-                        perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-                </div>
-                <div class="values d-flex flex-column px-2">
-                    <i class="fa-solid fa-gear"></i>
-                    <span class="pt-3">Highest Standards</span>
-                    <span class="pb-3">_</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt
-                        tenetur
-                        perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-                </div>
-                <div class="values d-flex flex-column pe-2">
-                    <i class="fa-solid fa-users"></i>
-                    <span class="pt-3">Professional Teams</span>
-                    <span class="pb-3">_</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt
-                        tenetur
-                        perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-                </div>
-                <div class="values d-flex flex-column">
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <span class="pt-3">Creative Solutions</span>
-                    <span class="pb-3">_</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt
-                        tenetur
-                        perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam</p>
-                </div>
+                <div v-for="(value, i) in values" :key="i" class="d-flex flex-column align-items-center px-2">
+                        <i :class="value.icon"></i>
+                        <span class="pt-3"> {{value.title}}</span>
+                        <span class="pb-3">_</span>
+                        <p> {{value.description}}</p>
+                </div>                   
             </div>
         </section>
         <!-- review's secction -->
@@ -257,14 +231,19 @@ export default {
     name:"BaseMain",
     props: {
         specialities: Array,
+        values: Array,
     },
 
 }
 </script>
 
 <style lang="scss" scoped>
+
+
+
+
 @import "../assets/sass/style.scss";
-//jumbotron;
+//jumbotron
 #jumbotron{
     background-image: url("../assets/img/home-slider-62528242.jpg");
 
@@ -329,6 +308,17 @@ export default {
         width: 150px;
         padding: 0.5rem;
         background-color: $pampas;
+
+        i{
+            padding: 1rem;
+            border: 1px solid $dove_gray;
+            color:$dove_gray;
+
+        }
+
+        p{
+            color:$dove_gray;
+        }
     }
 }
 
@@ -363,6 +353,18 @@ export default {
     background-color: $pampas;
     min-height: 450px;
 
+    span,p{
+        color: $silver;
+    }
+
+    i{
+        font-size:2.5rem;
+        color:$white;
+        padding: 2rem;
+        border-radius: 50%;
+        background-color: $orange;
+
+    }
 }
 
 //reviews section
