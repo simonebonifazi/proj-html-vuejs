@@ -18,15 +18,14 @@
  }
 
  .divisor {
-     width: 105px;
-     height: 2px;
+     width: 155px;
      display: block;
-     margin: 2.2rem 0;
+     margin: 1rem 0;
      border: 1px solid $bright_sun;
  }
 
  section {
-     padding: 3rem 0;
+     padding: 5rem 0;
  }
 
  figure {
@@ -35,6 +34,7 @@
 
  h4 {
      text-transform: capitalize;
+     margin: 0;
  }
 
  button {
@@ -44,4 +44,13 @@
 
  hr {
      margin: 0 10px;
+ }
+
+ .view-all {
+     cursor: pointer;
+     padding: 5rem 0 3rem 0;
+ }
+
+ .intro {
+     line-height: 2rem;
  }

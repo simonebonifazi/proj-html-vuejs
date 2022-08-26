@@ -13,8 +13,8 @@
                 </figcaption>
                 <button type="button"> learn more</button>
             </div>
-            <div class="tweets px-2">
-                <h4 class="pb-3"> LATEST TWEETS</h4>
+            <div class="tweets px-4">
+                <h4 class="pb-5"> LATEST TWEETS</h4>
                 <div class="d-flex justify-content-between">
 
                     <figure class="d-flex tweets-intro">
@@ -51,47 +51,47 @@
                     </figcaption>
                 </div>
             </div>
-            <div class="contact-us px-2">
-                <h4 class="pb-3">contact us today </h4>
+            <div class="contact-us px-4">
+                <h4 class="pb-5">contact us today </h4>
                 <ul>
                     <li class="d-flex pb-3">
                         <i class="fa-solid fa-globe"></i>
                         <div class="d-flex-flex-column">
 
-                            <div class="ps-4">Corporate Location</div>
-                            <div class="ps-4">1600 Amphitheatre Parkway</div>
-                            <div class="ps-4">London WC11BA</div>
+                            <div class="ps-2">Corporate Location</div>
+                            <div class="ps-2">1600 Amphitheatre Parkway</div>
+                            <div class="ps-2">London WC11BA</div>
                         </div>
                     </li>
                     <li class="d-flex pb-3">
                         <i class="fa-solid fa-house"></i>
                         <div class="d-flex flex-column">
 
-                            <div class="ps-4">Residential Location</div>
-                            <div class="ps-4">9521 Broadsberry Avenue</div>
-                            <div class="ps-4">Paddington RC7 9ZA</div>
+                            <div class="ps-2">Residential Location</div>
+                            <div class="ps-2">9521 Broadsberry Avenue</div>
+                            <div class="ps-2">Paddington RC7 9ZA</div>
                         </div>
                     </li>
                     <li class="d-flex pb-3">
                         <i class="fa-solid fa-phone-flip"></i>
-                        <div class="ps-4"> 1.800.458.556 / 1.800.532.2112</div>
+                        <div class="ps-2"> 1.800.458.556 / 1.800.532.2112</div>
                     </li>
                     <li class="d-flex pb-3">
                         <i class="fa-regular fa-envelope"></i>
-                        <div class="ps-4"> info@your-domain.com</div>
+                        <div class="ps-2"> info@your-domain.com</div>
                     </li>
                     <li class="d-flex pb-3">
                         <i class="fa-regular fa-clock"></i>
-                        <div class="ps-4">Monday - Friday: 9:00 AM - 6:00 PM</div>
+                        <div class="ps-2">Monday - Friday: 9:00 AM - 6:00 PM</div>
                     </li>
                     <li class="d-flex pb-3">
                         <i class="fa-regular fa-clock"></i>
-                        <div class="ps-4">Saturday - Sunday: 9:00 AM - 12:00 PM</div>
+                        <div class="ps-2">Saturday - Sunday: 9:00 AM - 12:00 PM</div>
                     </li>
                 </ul>
             </div>
-            <div class="find-us">
-                <h4>
+            <div class="find-us ">
+                <h4 class="pb-5">
                     find us
                 </h4>
                 <figure>
@@ -99,9 +99,9 @@
                 </figure>
             </div>
         </section>
-
+        <!-- footer-bottom -->
         <section id="footer-bottom" class="py-0 px-4">
-            <div class="d-flex align-items-center justify-content-between py-4 px-5">
+            <div class="d-flex align-items-center justify-content-between py-4 px- ms-4">
                 <div> copyright 2012 - 2016 avada by <span class="fw-bold"> THEME FUSION</span> | all rights reserved |
                     powered by <span class="fw-bold"> wordpress</span>
                 </div>
@@ -144,7 +144,7 @@ footer {
     .tweets,
     .contact-us,
     .find-us {
-        flex-basis: 22%;
+        flex-basis: 20%;
         margin-bottom: 0;
     }
 
@@ -154,7 +154,7 @@ footer {
 
         button{
             font-size:small;
-            padding: 0.5rem;
+            padding: 0.4rem 1.2rem;
         }
     }
 

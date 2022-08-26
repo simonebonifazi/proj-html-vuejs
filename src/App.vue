@@ -44,28 +44,28 @@ data(){
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
       },
     ],
-  values:[
-    {
-      icon: "fa-solid fa-house-chimney rounded-6 bg-info",
-      title:"Great Services",
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
-    },
-    {
-      icon: "fa-solid fa-gear rounded-6 bg-primary ",
-      title:"Highest Standards",
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
-    },
-    {
-      icon: "fa-solid fa-users rounded-6",
-      title:"Professional Teams",
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
-    },
-    {
-      icon: "fa-solid fa-lightbulb rounded-6 bg-success",
-      title:"Creative Solutions",
-      description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
-    },
-  ],
+    values:[
+      {
+        icon: "fa-solid fa-house-chimney rounded-6 bg-info",
+        title:"Great Services",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
+      },
+      {
+        icon: "fa-solid fa-gear rounded-6 bg-primary ",
+        title:"Highest Standards",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
+      },
+      {
+        icon: "fa-solid fa-users rounded-6",
+        title:"Professional Teams",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
+      },
+      {
+        icon: "fa-solid fa-lightbulb rounded-6 bg-success",
+        title:"Creative Solutions",
+        description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis cupiditate incidunt  tenetur perspiciatis at! Repudiandae tenetur perspiciatis fugit excepturi accusantium ullam",
+      },
+    ],
     news: [
       {
         src: "blog-post-134132600",
